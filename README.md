@@ -14,10 +14,10 @@ Both mouse and keyboard input for playing notes.
 Supports white and black keys.
 Easy to customize and integrate into other projects.
 
-Technologies Used
+Technologies Used:
 
-HTML
-CSS
+HTML,
+CSS,
 JavaScript
 
 Feedback
