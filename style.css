@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  font-family: "Caveat", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.wholePiano {
+  height: 450px;
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 8px 14px 20px 7px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: 8px 14px 20px 7px rgba(0, 0, 0, 0.78);
+  box-shadow: 8px 14px 20px 7px rgba(0, 0, 0, 0.78);
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  user-select: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  user-select: none;
+}
+
+span {
+  user-select: none;
+}
+
+.keysHolder {
+  height: 300px;
+  display: flex;
+  padding: 20px;
+}
+
+.firstThreeGroup {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  position: relative;
+}
+
+.secondFourGroup {
+  height: 100%;
+  width: 400px;
+  display: flex;
+  position: relative;
+}
+
+.thirdThreeGroup {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  position: relative;
+}
+
+.key {
+  user-select: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.key:active {
+  scale: 0.97;
+}
+
+.animation {
+  scale: 0.97;
+}
+
+.whiteKey {
+  height: 100%;
+  width: 100px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 25px;
+  font-weight: bolder;
+}
+
+.blackKey {
+  background-color: black;
+  position: absolute;
+  height: 160px;
+  width: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  -webkit-box-shadow: 4px 7px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 7px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 7px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.blackKey1 {
+  left: 75px;
+}
+
+.blackKey2 {
+  left: 175px;
+}
+
+.blackKey3 {
+  left: 275px;
+}
+
+.activeLED {
+  background-color: red;
+  -webkit-box-shadow: 0px 0px 38px 16px rgba(255, 20, 20, 1);
+  -moz-box-shadow: 0px 0px 38px 16px rgba(255, 20, 20, 1);
+  box-shadow: 0px 0px 38px 16px rgba(255, 20, 20, 1);
+}
+
+.Circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  transition: 0.3s;
+  background-color: rgb(39, 38, 38);
+  margin-right: 10px;
+}
+
+.bottomText {
+  color: white;
+  user-select: auto;
+}
