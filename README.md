@@ -1,4 +1,4 @@
-Usage
+Usage:
 
 You can use the Web Piano in two ways:
 Mouse Click: Simply click on the keys with your mouse to play the piano sounds.
@@ -7,7 +7,7 @@ A, S, D, F, G, H, J, K, L: Play the white keys.
 W, E, T, Y, U: Play the black keys.
 For a more enjoyable experience, use a full-sized keyboard.
 
-Features
+Features:
 
 Realistic piano sound simulation.
 Both mouse and keyboard input for playing notes.
@@ -20,7 +20,7 @@ HTML,
 CSS,
 JavaScript
 
-Feedback
+Feedback:
 
 If you have any feedback or questions about this project, please don't hesitate to contact me.
 
