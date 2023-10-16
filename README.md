@@ -3,8 +3,8 @@ Usage:
 You can use the Web Piano in two ways:
 Mouse Click: Simply click on the keys with your mouse to play the piano sounds.
 Keyboard: You can also use your computer keyboard to play the keys. The keyboard mappings are as follows:
-A, S, D, F, G, H, J, K, L: Play the white keys.
-W, E, T, Y, U: Play the black keys.
+A, S, D, F, G, H, J, K, L, Č: Play the white keys.
+W, E, T, Z, U, O, P: Play the black keys.
 For a more enjoyable experience, use a full-sized keyboard.
 
 Features:
