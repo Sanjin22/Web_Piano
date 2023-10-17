@@ -3,6 +3,7 @@
   font-family: "Caveat", cursive;
   font-family: "Libre Baskerville", serif;
   font-family: "Tilt Neon", sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -153,4 +154,34 @@ span {
 .bottomText {
   color: white;
   user-select: auto;
+}
+
+@media only screen and (max-width: 1050px) {
+  .wholePiano {
+    scale: 0.9;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .wholePiano {
+    scale: 0.7;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .wholePiano {
+    scale: 0.5;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .wholePiano {
+    scale: 0.3;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .wholePiano {
+    scale: 0.25;
+  }
 }
